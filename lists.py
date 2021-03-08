@@ -18,3 +18,10 @@ c = a + b
 print(c)
 e = 4*a
 print(e)
+
+print(e[1])
+e[1] = 7
+print(e)
+
+for item in e:
+    print(item)
